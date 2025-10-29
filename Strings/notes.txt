@@ -1,0 +1,61 @@
+string is used to store array of character and sentence
+
+First we should know that how to take input of a string
+String str = sc.nextLine() // nextLine() method give the output of full nextLine
+String str = sc.next()  //next method print only single word it break after any single space
+
+
+Method And Operationg of string
+1) charAt() = this method is used to acces any single character of string
+
+example :
+String str = "Muskan"
+sout(str.charAt(4));
+output = a
+
+2)length() =  this method is used to acces the whole string 
+
+exmaple:
+String str = "Muskan"
+sout(str.length(str));
+
+
+
+3) indexOf() = this method is used to get the index of any character in a string
+exmaple:
+String str = "Muskan"
+sout(str.indexOf(n));
+o/p = 4
+
+* if there is repeated element in the string then we can access like this:
+exmaple:
+String str = "Muskan Gautam"
+sout(str.lastindexOf(m));
+o/p = 12
+
+* if the character is not present in the string then it return -1.
+
+4) toLowerCase() = this method covert all the character to  toLowerCase
+exmaple:
+String str = "Muskan Gautam"
+sout(str.toLowerCase());
+o/p = muskan gautam
+
+4) toUpperCase() = this method covert all the character to upper case
+exmaple:
+String str = "Muskan Gautam"
+sout(str.toUpperCase());
+o/p = MUSKAN GAUTAM
+
+5) contains() = this method is used if the string contains or not it return true or false
+example:
+String str = "harshita";
+sout(str.contains('harsh'))
+
+Two practice question:
+1) WAP to count the number of vowels in a string
+
+2) WAP to check if the number is palindrome or not.
+palindrome string is the type of string in which we read the string same as front or back
+example: mom = reverse is also mom
+
