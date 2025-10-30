@@ -11,9 +11,29 @@ public class builtInMethod{
         System.out.println(str2.toLowerCase());
 
         String str3 = "Muskan Gautam";
-        System.out.print(str3.toUpperCase());
+        System.out.println(str3.toUpperCase());
 
-        String str4 = "Harshita";
-        System.out.println(str4.contains('harsh'));
+        String a = "Harshita";
+        String b = "Namrita";
+        System.out.println(a.compareTo(b));
+
+        
+        String c = "Harshita";
+        String d = "Namrita";
+        System.out.println(a.concat(b));
+
+        String e = "Harshita";
+        e = e + " is a good girl";
+        e = e + 10;
+        e = e + '\n';
+        e = e + 'n';
+        System.out.println(e);
+
+        System.out.println("kritika"+10+20);
+        System.out.println(10+"kritika"+20);
+        System.out.println(10+20+"kritika");
+        System.out.println('A'+10 +"kritika");
+        System.out.println("kritika"+(10+20));
+        
     }
 }

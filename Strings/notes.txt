@@ -52,6 +52,19 @@ example:
 String str = "harshita";
 sout(str.contains('harsh'))
 
+6) compareTo() = this method is used to compare two string if the fisrt character of both is not matched then the further string is not compared
+example:
+        String a = "Harshita";
+        String b = "Namrita";
+        System.out.println(a.compareTo(b));
+
+7) concat() = this method is used to join two string
+        
+        String c = "Harshita";
+        String d = "Namrita";
+        System.out.println(a.concat(b));
+
+        
 Two practice question:
 1) WAP to count the number of vowels in a string
 
@@ -59,3 +72,25 @@ Two practice question:
 palindrome string is the type of string in which we read the string same as front or back
 example: mom = reverse is also mom
 
+# How to convert integer to string
+Integer.toString() = this method is used to convert int to string
+String s = Integer.toString(n);
+System.out.println(s);
+
+#)Integer.parseInt() = this method help your to add numbers
+String str = "45674";
+int num = Integer.parseInt(str);
+System.out.println(num+1);
+
+#) toCharArray() = this method is used to convert to string to character array
+example :
+String s = "Ruhan";
+char a[] = s.toCharArray();
+for(char ch : a){
+    System.out.println(ch);
+}
+
+#)substring() = this method is  used to print the substring from a string.
+example :
+String s = "Harshitam";
+System.out.println(s.substring(4));
