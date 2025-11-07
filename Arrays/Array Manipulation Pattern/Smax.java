@@ -10,7 +10,6 @@ public class Smax{
         if(arr[i] > max){
             max = arr[i];
         }
-    
        }
        System.out.println("Maximum element from array are  : " + max);
        for(int i = 0;i < n;i++){

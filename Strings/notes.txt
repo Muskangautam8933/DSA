@@ -94,3 +94,29 @@ for(char ch : a){
 example :
 String s = "Harshitam";
 System.out.println(s.substring(4));
+
+
+#)StringBuilder = StringBuilder is a class in programming commonly found in java that is used to create mutable sequence of characters
+
+Mutable vs. Immutable: In many programming languages, standard String objects are immutable, meaning their value cannot be changed once they are created. If you perform an operation that seems to modify a string (like concatenation), the system actually creates an entirely new string object in memory.
+
+Efficiency: A StringBuilder, on the other hand, is mutable. It allows you to modify the content (append, insert, delete characters, etc.) of the existing object directly in its memory location without creating new objects each time.
+
+
+Purpose: This makes StringBuilder much more efficient and faster, especially when you need to perform many string manipulations, such as building a long string within a loop.
+
+
+Thread Safety: StringBuilder is typically not "thread-safe" (meaning it shouldn't be accessed by multiple parts of a program simultaneously without extra handling), which makes it faster than its thread-safe counterpart, StringBuffer
+
+*)this is how we actually create StringBuilder:
+StringBuilder s = new StringBuilder("Muskan");
+
+StringBuilder method
+str.append()
+str.setCharAt()
+str.reverse()
+str.insert()
+str.update()
+str.delete()
+str.toString()
+and there is lots more method in StringBuilder
