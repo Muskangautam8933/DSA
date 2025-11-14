@@ -1,0 +1,22 @@
+1) Classes : Classes are the blueprint or template of objects in class we define our data type
+2) Objects: objects are the real world entity in the object we initialoze the value with the help of object we can access class
+
+3) Passing object to methods:if we send object in the function then it is called pass by reference
+
+4) Polymorphism : polymorphism means multiple form
+The word polymorphism means having many forms, and it comes from the Greek words poly (many) and morph (forms), this means one entity can take many forms.
+
+we use polymorphism because:
+Code Reusability:
+Flexibility: 
+Abstraction:
+
+Types of  polymorphism :
+
+i) Compile time polymorphism - 
+        method overloading: multiple functions with the same name but different parameters then these functions are said to be overloaded. 
+
+ii) Run time polymorphism -  
+        method overriding: The method in the subclass must have the same name, return type, and parameters as the method in the superclass.
+
+5) private access modifies: The private keyword is an access modifier used for attributes, methods and constructors, making them only accessible within the declared class.
