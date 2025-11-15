@@ -19,4 +19,20 @@ i) Compile time polymorphism -
 ii) Run time polymorphism -  
         method overriding: The method in the subclass must have the same name, return type, and parameters as the method in the superclass.
 
-5) private access modifies: The private keyword is an access modifier used for attributes, methods and constructors, making them only accessible within the declared class.
+5) Access Modifier:
+     i) Public Access Modifier:
+         The public access modifier is specified using the keyword public. Public members are accessible from everywhere in the program. There is no restriction on the scope of public data members.
+
+    ii) Private Access Modifier
+         The private access modifier is specified using the keyword private. The methods or data members declared as private are accessible only within the class in which they are declared.
+
+    iii) Protected Access Modifier
+         The protected access modifier is specified using the keyword protected. The methods or data members declared as protected are accessible within the same package or subclasses in different packages
+
+     iv) Default Access Modifier
+         When no access modifier is specified for a class, method, or data member, it is said to have the default access modifier by default. This means only classes within the same package can access it.
+
+6) Getter & Setter in java: 
+Getter in Java: Getter returns the value (accessors), it returns the value of data type int, String, double, float, etc. For the program's convenience, the getter starts with the word "get" followed by the variable name.
+
+Setter in Java: While Setter sets or updates the value (mutators). It sets the value for any variable used in a class's programs. and starts with the word "set" followed by the variable name
