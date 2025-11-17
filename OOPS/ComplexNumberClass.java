@@ -11,6 +11,17 @@ class ComplexNumber{
         if(y>=0) System.out.println(x+" + "+y+"i");
         else System.out.println(x+" - "+(-y)+"i");
     }  
+
+    void add(ComplexNumber z){
+        x += z.x;
+        y += z.y;
+    }
+
+    void multiply(ComplexNumber z){
+        x *= z.x;
+        y *= z.y;
+
+    }
 }
 
 public class ComplexNumberClass{
@@ -19,6 +30,9 @@ public class ComplexNumberClass{
         ComplexNumber z2 = new ComplexNumber(2, -5);
         z1.print();
         z2.print();
+
+        z1.add(z2); z2.print();
+        z2.multiply(z1); z1.print();
         
     }
 }
