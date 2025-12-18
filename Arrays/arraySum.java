@@ -1,4 +1,4 @@
-// //WAP to print the sum of array element
+//WAP to print the sum of array element
 import java.util.*;
 public class arraySum{
     public static void main(String[] args) {
